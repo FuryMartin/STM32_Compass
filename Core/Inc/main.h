@@ -41,7 +41,8 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-//extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart1;
+extern QueueHandle_t msgQ;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

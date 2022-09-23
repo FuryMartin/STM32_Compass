@@ -1,5 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
+d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+                              CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj (__aeabi_unwind_cpp_pr0)
+d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(libunwind.o)
+                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o) (restore_core_regs)
+d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
+                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o) (abort)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
                               CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj (__errno)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-exit.o)
@@ -14,6 +22,10 @@ d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../ar
                               d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
                               CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj (_reclaim_reent)
+d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o) (raise)
+d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
+                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o) (_kill_r)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
                               d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-exit.o) (__call_exitprocs)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
@@ -25,7 +37,7 @@ d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../ar
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
                               d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mallocr.o)
-                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o) (__malloc_current_mallinfo)
+                              d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o) (_malloc_r)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
                               d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o) (__malloc_lock)
 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
@@ -50,11 +62,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
  .data          0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
- .debug_line    0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
- .debug_str     0x00000000      0x138 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
- .comment       0x00000000       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
- .ARM.attributes
-                0x00000000       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .ARM.extab.text.blink_LED
+                0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .ARM.extab.text.circle_blink
+                0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
  .text          0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
  .data          0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
  .bss           0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
@@ -83,9 +94,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .text.initialise_monitor_handles
                 0x00000000        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .text._getpid  0x00000000        0x4 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .text._kill    0x00000000       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .text._exit    0x00000000        0xc CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .text._read    0x00000000       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .text._write   0x00000000       0x1c CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .text._close   0x00000000        0x6 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
@@ -102,18 +110,6 @@ Discarded input sections
  .text._execve  0x00000000       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .bss.__env     0x00000000        0x4 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .data.environ  0x00000000        0x4 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00000000      0x7af CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x00000000      0x1a3 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_loc     0x00000000      0x3c5 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_aranges
-                0x00000000       0xa8 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_ranges  0x00000000       0x98 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x3dc CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x42c CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .comment       0x00000000       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00000000      0x190 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
- .ARM.attributes
-                0x00000000       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .text          0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
  .data          0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
  .bss           0x00000000        0x0 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
@@ -1491,6 +1487,22 @@ Discarded input sections
  .comment       0x00000000       0x4a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+ .text.unlikely
+                0x00000000        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+ .ARM.extab.text.unlikely
+                0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+ .ARM.exidx.text.unlikely
+                0x00000000       0x10 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+ .text          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
+ .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
+ .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
  .text          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
  .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
  .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
@@ -1515,6 +1527,25 @@ Discarded input sections
  .text          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
  .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
  .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
+ .text          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x00000000       0x30 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text._signal_r
+                0x00000000       0x4c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text._raise_r
+                0x00000000       0x58 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x00000000       0x64 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text.signal   0x00000000       0x54 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text._init_signal
+                0x00000000       0x38 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x00000000       0x68 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .text          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
+ .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
+ .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
  .text          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
  .data          0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
  .bss           0x00000000        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
@@ -1661,547 +1692,620 @@ LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000190     0x37c4
+.text           0x08000190     0x4760
                 0x08000190                . = ALIGN (0x4)
  *(.text)
  .text          0x08000190       0x40 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
- .text          0x080001d0      0x134 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memcpy.o)
-                0x080001d0                memcpy
+ .text          0x080001d0      0x9d8 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+                0x08000478                _Unwind_GetCFA
+                0x0800047c                __gnu_Unwind_RaiseException
+                0x080004e4                __gnu_Unwind_ForcedUnwind
+                0x080004f4                __gnu_Unwind_Resume
+                0x08000538                __gnu_Unwind_Resume_or_Rethrow
+                0x08000548                _Unwind_Complete
+                0x0800054c                _Unwind_DeleteException
+                0x08000558                _Unwind_VRS_Get
+                0x080005a4                _Unwind_VRS_Set
+                0x080005ec                __gnu_Unwind_Backtrace
+                0x08000918                __aeabi_unwind_cpp_pr0
+                0x0800091c                __aeabi_unwind_cpp_pr1
+                0x08000920                __aeabi_unwind_cpp_pr2
+                0x08000924                _Unwind_VRS_Pop
+ .text          0x08000ba8      0x1ac d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(libunwind.o)
+                0x08000ba8                __restore_core_regs
+                0x08000ba8                restore_core_regs
+                0x08000bc0                __gnu_Unwind_Restore_VFP
+                0x08000bc8                __gnu_Unwind_Save_VFP
+                0x08000bd0                __gnu_Unwind_Restore_VFP_D
+                0x08000bd8                __gnu_Unwind_Save_VFP_D
+                0x08000be0                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x08000be8                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x08000bf0                __gnu_Unwind_Restore_WMMXD
+                0x08000c34                __gnu_Unwind_Save_WMMXD
+                0x08000c78                __gnu_Unwind_Restore_WMMXC
+                0x08000c8c                __gnu_Unwind_Save_WMMXC
+                0x08000ca0                ___Unwind_RaiseException
+                0x08000ca0                _Unwind_RaiseException
+                0x08000cc4                _Unwind_Resume
+                0x08000cc4                ___Unwind_Resume
+                0x08000ce8                _Unwind_Resume_or_Rethrow
+                0x08000ce8                ___Unwind_Resume_or_Rethrow
+                0x08000d0c                _Unwind_ForcedUnwind
+                0x08000d0c                ___Unwind_ForcedUnwind
+                0x08000d30                ___Unwind_Backtrace
+                0x08000d30                _Unwind_Backtrace
+ .text          0x08000d54      0x350 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+                0x08000dac                __gnu_unwind_execute
+                0x08001058                __gnu_unwind_frame
+                0x08001084                _Unwind_GetRegionStart
+                0x08001090                _Unwind_GetLanguageSpecificData
+ .text          0x080010a4      0x134 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memcpy.o)
+                0x080010a4                memcpy
  *(.text*)
+ .text.blink_LED
+                0x080011d8       0x2c CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+                0x080011d8                blink_LED
+ .text.circle_blink
+                0x08001204       0x60 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+                0x08001204                circle_blink
  .text.vApplicationGetIdleTaskMemory
-                0x08000304       0x18 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
-                0x08000304                vApplicationGetIdleTaskMemory
+                0x08001264       0x18 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+                0x08001264                vApplicationGetIdleTaskMemory
  .text.MX_GPIO_Init
-                0x0800031c       0x88 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x0800127c       0x88 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
  .text.StartTask2
-                0x080003a4       0x78 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                0x080003a4                StartTask2
+                0x08001304       0x78 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x08001304                StartTask2
  .text.StartDefaultTask
-                0x0800041c       0x80 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                0x0800041c                StartDefaultTask
+                0x0800137c        0x8 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x0800137c                StartDefaultTask
  .text.HAL_TIM_PeriodElapsedCallback
-                0x0800049c       0x18 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                0x0800049c                HAL_TIM_PeriodElapsedCallback
+                0x08001384       0x18 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x08001384                HAL_TIM_PeriodElapsedCallback
  .text.Error_Handler
-                0x080004b4        0x4 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                0x080004b4                Error_Handler
+                0x0800139c        0x4 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x0800139c                Error_Handler
  .text.MX_USART1_UART_Init
-                0x080004b8       0x38 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x080013a0       0x38 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
  .text.SystemClock_Config
-                0x080004f0       0x6e CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                0x080004f0                SystemClock_Config
- *fill*         0x0800055e        0x2 
- .text.main     0x08000560       0x7c CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                0x08000560                main
+                0x080013d8       0x6e CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x080013d8                SystemClock_Config
+ *fill*         0x08001446        0x2 
+ .text.main     0x08001448       0x78 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x08001448                main
  .text.HAL_MspInit
-                0x080005dc       0x40 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x080005dc                HAL_MspInit
+                0x080014c0       0x40 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x080014c0                HAL_MspInit
  .text.HAL_UART_MspInit
-                0x0800061c       0x68 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x0800061c                HAL_UART_MspInit
+                0x08001500       0x68 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08001500                HAL_UART_MspInit
  .text.HAL_InitTick
-                0x08000684       0x78 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
-                0x08000684                HAL_InitTick
+                0x08001568       0x78 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+                0x08001568                HAL_InitTick
  .text.NMI_Handler
-                0x080006fc        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x080006fc                NMI_Handler
+                0x080015e0        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015e0                NMI_Handler
  .text.HardFault_Handler
-                0x080006fe        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x080006fe                HardFault_Handler
+                0x080015e2        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015e2                HardFault_Handler
  .text.MemManage_Handler
-                0x08000700        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000700                MemManage_Handler
+                0x080015e4        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015e4                MemManage_Handler
  .text.BusFault_Handler
-                0x08000702        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000702                BusFault_Handler
+                0x080015e6        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015e6                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000704        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000704                UsageFault_Handler
+                0x080015e8        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015e8                UsageFault_Handler
  .text.DebugMon_Handler
-                0x08000706        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000706                DebugMon_Handler
+                0x080015ea        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015ea                DebugMon_Handler
  .text.TIM1_UP_TIM16_IRQHandler
-                0x08000708       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000708                TIM1_UP_TIM16_IRQHandler
- .text._sbrk    0x08000718       0x48 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
-                0x08000718                _sbrk
+                0x080015ec       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x080015ec                TIM1_UP_TIM16_IRQHandler
+ .text._getpid  0x080015fc        0x4 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+                0x080015fc                _getpid
+ .text._kill    0x08001600       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+                0x08001600                _kill
+ .text._exit    0x08001610        0xc CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+                0x08001610                _exit
+ .text._sbrk    0x0800161c       0x48 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+                0x0800161c                _sbrk
  .text.SystemInit
-                0x08000760       0x14 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
-                0x08000760                SystemInit
+                0x08001664       0x14 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x08001664                SystemInit
  .text.Reset_Handler
-                0x08000774       0x50 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
-                0x08000774                Reset_Handler
+                0x08001678       0x50 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+                0x08001678                Reset_Handler
  .text.Default_Handler
-                0x080007c4        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
-                0x080007c4                RTC_Alarm_IRQHandler
-                0x080007c4                TIM8_TRG_COM_IRQHandler
-                0x080007c4                TIM8_CC_IRQHandler
-                0x080007c4                TIM1_CC_IRQHandler
-                0x080007c4                USB_HP_IRQHandler
-                0x080007c4                PVD_IRQHandler
-                0x080007c4                TAMP_STAMP_IRQHandler
-                0x080007c4                EXTI3_IRQHandler
-                0x080007c4                USB_HP_CAN_TX_IRQHandler
-                0x080007c4                EXTI0_IRQHandler
-                0x080007c4                I2C2_EV_IRQHandler
-                0x080007c4                FPU_IRQHandler
-                0x080007c4                ADC1_2_IRQHandler
-                0x080007c4                SPI1_IRQHandler
-                0x080007c4                CAN_SCE_IRQHandler
-                0x080007c4                TIM6_DAC_IRQHandler
-                0x080007c4                TIM8_UP_IRQHandler
-                0x080007c4                DMA2_Channel2_IRQHandler
-                0x080007c4                DMA1_Channel4_IRQHandler
-                0x080007c4                USART3_IRQHandler
-                0x080007c4                DMA1_Channel7_IRQHandler
-                0x080007c4                UART5_IRQHandler
-                0x080007c4                ADC3_IRQHandler
-                0x080007c4                TIM4_IRQHandler
-                0x080007c4                CAN_RX1_IRQHandler
-                0x080007c4                DMA2_Channel1_IRQHandler
-                0x080007c4                I2C1_EV_IRQHandler
-                0x080007c4                DMA1_Channel6_IRQHandler
-                0x080007c4                UART4_IRQHandler
-                0x080007c4                DMA2_Channel4_IRQHandler
-                0x080007c4                TIM3_IRQHandler
-                0x080007c4                RCC_IRQHandler
-                0x080007c4                DMA1_Channel1_IRQHandler
-                0x080007c4                Default_Handler
-                0x080007c4                USBWakeUp_RMP_IRQHandler
-                0x080007c4                EXTI15_10_IRQHandler
-                0x080007c4                TIM7_IRQHandler
-                0x080007c4                EXTI9_5_IRQHandler
-                0x080007c4                RTC_WKUP_IRQHandler
-                0x080007c4                SPI2_IRQHandler
-                0x080007c4                USB_LP_CAN_RX0_IRQHandler
-                0x080007c4                DMA2_Channel5_IRQHandler
-                0x080007c4                DMA1_Channel5_IRQHandler
-                0x080007c4                USB_LP_IRQHandler
-                0x080007c4                EXTI4_IRQHandler
-                0x080007c4                TIM1_TRG_COM_TIM17_IRQHandler
-                0x080007c4                DMA1_Channel3_IRQHandler
-                0x080007c4                ADC4_IRQHandler
-                0x080007c4                WWDG_IRQHandler
-                0x080007c4                TIM2_IRQHandler
-                0x080007c4                COMP7_IRQHandler
-                0x080007c4                COMP1_2_3_IRQHandler
-                0x080007c4                EXTI1_IRQHandler
-                0x080007c4                USART2_IRQHandler
-                0x080007c4                COMP4_5_6_IRQHandler
-                0x080007c4                I2C2_ER_IRQHandler
-                0x080007c4                DMA1_Channel2_IRQHandler
-                0x080007c4                TIM8_BRK_IRQHandler
-                0x080007c4                FLASH_IRQHandler
-                0x080007c4                USART1_IRQHandler
-                0x080007c4                SPI3_IRQHandler
-                0x080007c4                I2C1_ER_IRQHandler
-                0x080007c4                USBWakeUp_IRQHandler
-                0x080007c4                DMA2_Channel3_IRQHandler
-                0x080007c4                EXTI2_TSC_IRQHandler
-                0x080007c4                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x080007c6        0x2 
+                0x080016c8        0x2 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+                0x080016c8                RTC_Alarm_IRQHandler
+                0x080016c8                TIM8_TRG_COM_IRQHandler
+                0x080016c8                TIM8_CC_IRQHandler
+                0x080016c8                TIM1_CC_IRQHandler
+                0x080016c8                USB_HP_IRQHandler
+                0x080016c8                PVD_IRQHandler
+                0x080016c8                TAMP_STAMP_IRQHandler
+                0x080016c8                EXTI3_IRQHandler
+                0x080016c8                USB_HP_CAN_TX_IRQHandler
+                0x080016c8                EXTI0_IRQHandler
+                0x080016c8                I2C2_EV_IRQHandler
+                0x080016c8                FPU_IRQHandler
+                0x080016c8                ADC1_2_IRQHandler
+                0x080016c8                SPI1_IRQHandler
+                0x080016c8                CAN_SCE_IRQHandler
+                0x080016c8                TIM6_DAC_IRQHandler
+                0x080016c8                TIM8_UP_IRQHandler
+                0x080016c8                DMA2_Channel2_IRQHandler
+                0x080016c8                DMA1_Channel4_IRQHandler
+                0x080016c8                USART3_IRQHandler
+                0x080016c8                DMA1_Channel7_IRQHandler
+                0x080016c8                UART5_IRQHandler
+                0x080016c8                ADC3_IRQHandler
+                0x080016c8                TIM4_IRQHandler
+                0x080016c8                CAN_RX1_IRQHandler
+                0x080016c8                DMA2_Channel1_IRQHandler
+                0x080016c8                I2C1_EV_IRQHandler
+                0x080016c8                DMA1_Channel6_IRQHandler
+                0x080016c8                UART4_IRQHandler
+                0x080016c8                DMA2_Channel4_IRQHandler
+                0x080016c8                TIM3_IRQHandler
+                0x080016c8                RCC_IRQHandler
+                0x080016c8                DMA1_Channel1_IRQHandler
+                0x080016c8                Default_Handler
+                0x080016c8                USBWakeUp_RMP_IRQHandler
+                0x080016c8                EXTI15_10_IRQHandler
+                0x080016c8                TIM7_IRQHandler
+                0x080016c8                EXTI9_5_IRQHandler
+                0x080016c8                RTC_WKUP_IRQHandler
+                0x080016c8                SPI2_IRQHandler
+                0x080016c8                USB_LP_CAN_RX0_IRQHandler
+                0x080016c8                DMA2_Channel5_IRQHandler
+                0x080016c8                DMA1_Channel5_IRQHandler
+                0x080016c8                USB_LP_IRQHandler
+                0x080016c8                EXTI4_IRQHandler
+                0x080016c8                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080016c8                DMA1_Channel3_IRQHandler
+                0x080016c8                ADC4_IRQHandler
+                0x080016c8                WWDG_IRQHandler
+                0x080016c8                TIM2_IRQHandler
+                0x080016c8                COMP7_IRQHandler
+                0x080016c8                COMP1_2_3_IRQHandler
+                0x080016c8                EXTI1_IRQHandler
+                0x080016c8                USART2_IRQHandler
+                0x080016c8                COMP4_5_6_IRQHandler
+                0x080016c8                I2C2_ER_IRQHandler
+                0x080016c8                DMA1_Channel2_IRQHandler
+                0x080016c8                TIM8_BRK_IRQHandler
+                0x080016c8                FLASH_IRQHandler
+                0x080016c8                USART1_IRQHandler
+                0x080016c8                SPI3_IRQHandler
+                0x080016c8                I2C1_ER_IRQHandler
+                0x080016c8                USBWakeUp_IRQHandler
+                0x080016c8                DMA2_Channel3_IRQHandler
+                0x080016c8                EXTI2_TSC_IRQHandler
+                0x080016c8                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x080016ca        0x2 
  .text.HAL_Init
-                0x080007c8       0x24 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x080007c8                HAL_Init
+                0x080016cc       0x24 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x080016cc                HAL_Init
  .text.HAL_IncTick
-                0x080007ec       0x18 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x080007ec                HAL_IncTick
+                0x080016f0       0x18 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x080016f0                HAL_IncTick
  .text.HAL_GetTick
-                0x08000804        0xc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x08000804                HAL_GetTick
+                0x08001708        0xc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001708                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000810       0x24 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x08000810                HAL_NVIC_SetPriorityGrouping
+                0x08001714       0x24 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x08001714                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000834       0x70 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x08000834                HAL_NVIC_SetPriority
+                0x08001738       0x70 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x08001738                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x080008a4       0x1c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x080008a4                HAL_NVIC_EnableIRQ
+                0x080017a8       0x1c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x080017a8                HAL_NVIC_EnableIRQ
  .text.HAL_GPIO_Init
-                0x080008c0      0x1c8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x080008c0                HAL_GPIO_Init
+                0x080017c4      0x1c8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x080017c4                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x08000a88        0xe CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08000a88                HAL_GPIO_ReadPin
+                0x0800198c        0xe CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x0800198c                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x08000a96        0xa CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08000a96                HAL_GPIO_WritePin
+                0x0800199a        0xa CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x0800199a                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x08000aa0       0x12 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08000aa0                HAL_GPIO_TogglePin
- *fill*         0x08000ab2        0x2 
+                0x080019a4       0x12 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x080019a4                HAL_GPIO_TogglePin
+ *fill*         0x080019b6        0x2 
  .text.HAL_RCC_OscConfig
-                0x08000ab4      0x634 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08000ab4                HAL_RCC_OscConfig
+                0x080019b8      0x634 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x080019b8                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x080010e8       0x70 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x080010e8                HAL_RCC_GetSysClockFreq
+                0x08001fec       0x70 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001fec                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08001158      0x1a8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001158                HAL_RCC_ClockConfig
+                0x0800205c      0x1a8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x0800205c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08001300        0xc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001300                HAL_RCC_GetHCLKFreq
+                0x08002204        0xc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08002204                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0800130c       0x2c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x0800130c                HAL_RCC_GetPCLK1Freq
+                0x08002210       0x2c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08002210                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001338       0x2c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001338                HAL_RCC_GetPCLK2Freq
+                0x0800223c       0x2c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x0800223c                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCC_GetClockConfig
-                0x08001364       0x3c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001364                HAL_RCC_GetClockConfig
+                0x08002268       0x3c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08002268                HAL_RCC_GetClockConfig
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x080013a0      0x260 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-                0x080013a0                HAL_RCCEx_PeriphCLKConfig
+                0x080022a4      0x260 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+                0x080022a4                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_TIM_Base_MspInit
-                0x08001600        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08001600                HAL_TIM_Base_MspInit
- *fill*         0x08001602        0x2 
+                0x08002504        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002504                HAL_TIM_Base_MspInit
+ *fill*         0x08002506        0x2 
  .text.HAL_TIM_Base_Start_IT
-                0x08001604       0x84 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08001604                HAL_TIM_Base_Start_IT
+                0x08002508       0x84 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002508                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x08001688        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08001688                HAL_TIM_OC_DelayElapsedCallback
+                0x0800258c        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x0800258c                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x0800168a        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x0800168a                HAL_TIM_IC_CaptureCallback
+                0x0800258e        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x0800258e                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x0800168c        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x0800168c                HAL_TIM_PWM_PulseFinishedCallback
+                0x08002590        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002590                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x0800168e        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x0800168e                HAL_TIM_TriggerCallback
+                0x08002592        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002592                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x08001690      0x19a CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08001690                HAL_TIM_IRQHandler
- *fill*         0x0800182a        0x2 
+                0x08002594      0x19a CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002594                HAL_TIM_IRQHandler
+ *fill*         0x0800272e        0x2 
  .text.TIM_Base_SetConfig
-                0x0800182c       0xb8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x0800182c                TIM_Base_SetConfig
+                0x08002730       0xb8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002730                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x080018e4       0x60 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x080018e4                HAL_TIM_Base_Init
+                0x080027e8       0x60 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x080027e8                HAL_TIM_Base_Init
  .text.HAL_TIMEx_CommutCallback
-                0x08001944        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x08001944                HAL_TIMEx_CommutCallback
+                0x08002848        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x08002848                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x08001946        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x08001946                HAL_TIMEx_BreakCallback
+                0x0800284a        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x0800284a                HAL_TIMEx_BreakCallback
  .text.HAL_TIMEx_Break2Callback
-                0x08001948        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x08001948                HAL_TIMEx_Break2Callback
- *fill*         0x0800194a        0x2 
+                0x0800284c        0x2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x0800284c                HAL_TIMEx_Break2Callback
+ *fill*         0x0800284e        0x2 
  .text.UART_SetConfig
-                0x0800194c      0x250 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x0800194c                UART_SetConfig
+                0x08002850      0x250 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002850                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x08001b9c       0xca CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08001b9c                UART_AdvFeatureConfig
+                0x08002aa0       0xca CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002aa0                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x08001c66       0xd4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08001c66                UART_WaitOnFlagUntilTimeout
+                0x08002b6a       0xd4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002b6a                UART_WaitOnFlagUntilTimeout
  .text.UART_CheckIdleState
-                0x08001d3a       0x70 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08001d3a                UART_CheckIdleState
+                0x08002c3e       0x70 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002c3e                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x08001daa       0x62 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08001daa                HAL_UART_Init
+                0x08002cae       0x62 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002cae                HAL_UART_Init
  .text.makeFreeRtosPriority
-                0x08001e0c        0xc CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x08002d10        0xc CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
  .text.osKernelStart
-                0x08001e18        0xa CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x08001e18                osKernelStart
+                0x08002d1c        0xa CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x08002d1c                osKernelStart
  .text.osThreadCreate
-                0x08001e22       0x6a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x08001e22                osThreadCreate
- .text.osDelay  0x08001e8c        0xe CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-                0x08001e8c                osDelay
+                0x08002d26       0x6a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x08002d26                osThreadCreate
+ .text.osDelay  0x08002d90        0xe CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x08002d90                osDelay
  .text.vListInitialise
-                0x08001e9a       0x16 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x08001e9a                vListInitialise
+                0x08002d9e       0x16 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x08002d9e                vListInitialise
  .text.vListInitialiseItem
-                0x08001eb0        0x6 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x08001eb0                vListInitialiseItem
+                0x08002db4        0x6 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x08002db4                vListInitialiseItem
  .text.vListInsertEnd
-                0x08001eb6       0x16 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x08001eb6                vListInsertEnd
+                0x08002dba       0x16 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x08002dba                vListInsertEnd
  .text.vListInsert
-                0x08001ecc       0x32 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x08001ecc                vListInsert
+                0x08002dd0       0x32 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x08002dd0                vListInsert
  .text.uxListRemove
-                0x08001efe       0x26 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                0x08001efe                uxListRemove
+                0x08002e02       0x26 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x08002e02                uxListRemove
  .text.prvTaskExitError
-                0x08001f24       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002e28       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .text.prvPortStartFirstTask
-                0x08001f64       0x28 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002e68       0x28 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .text.vPortEnableVFP
-                0x08001f8c       0x14 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002e90       0x14 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .text.pxPortInitialiseStack
-                0x08001fa0       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08001fa0                pxPortInitialiseStack
- *fill*         0x08001fcc        0x4 
+                0x08002ea4       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002ea4                pxPortInitialiseStack
  .text.SVC_Handler
-                0x08001fd0       0x24 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08001fd0                SVC_Handler
+                0x08002ed0       0x24 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002ed0                SVC_Handler
  .text.vPortEnterCritical
-                0x08001ff4       0x44 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08001ff4                vPortEnterCritical
+                0x08002ef4       0x44 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002ef4                vPortEnterCritical
  .text.vPortExitCritical
-                0x08002038       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08002038                vPortExitCritical
- *fill*         0x08002064        0xc 
+                0x08002f38       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002f38                vPortExitCritical
+ *fill*         0x08002f64        0xc 
  .text.PendSV_Handler
-                0x08002070       0x64 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08002070                PendSV_Handler
+                0x08002f70       0x64 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002f70                PendSV_Handler
  .text.SysTick_Handler
-                0x080020d4       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x080020d4                SysTick_Handler
+                0x08002fd4       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002fd4                SysTick_Handler
  .text.vPortSetupTimerInterrupt
-                0x08002100       0x28 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08002100                vPortSetupTimerInterrupt
+                0x08003000       0x28 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08003000                vPortSetupTimerInterrupt
  .text.xPortStartScheduler
-                0x08002128      0x118 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                0x08002128                xPortStartScheduler
+                0x08003028      0x118 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x08003028                xPortStartScheduler
  .text.prvHeapInit
-                0x08002240       0x64 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x08003140       0x64 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .text.prvInsertBlockIntoFreeList
-                0x080022a4       0x64 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x080031a4       0x64 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .text.pvPortMalloc
-                0x08002308       0xf0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-                0x08002308                pvPortMalloc
+                0x08003208       0xf0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x08003208                pvPortMalloc
  .text.vPortFree
-                0x080023f8       0x70 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-                0x080023f8                vPortFree
+                0x080032f8       0x70 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x080032f8                vPortFree
  .text.prvIsQueueFull
-                0x08002468       0x1e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x08003368       0x1e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvIsQueueEmpty
-                0x08002486       0x1a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x08003386       0x1a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvCopyDataToQueue
-                0x080024a0       0x76 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x080033a0       0x76 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvCopyDataFromQueue
-                0x08002516       0x24 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x08003416       0x24 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.prvUnlockQueue
-                0x0800253a       0x6e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0800343a       0x6e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.xQueueGenericReset
-                0x080025a8       0x84 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x080025a8                xQueueGenericReset
+                0x080034a8       0x84 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x080034a8                xQueueGenericReset
  .text.prvInitialiseNewQueue
-                0x0800262c       0x1c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0800352c       0x1c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .text.xQueueGenericCreate
-                0x08002648       0x4e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x08002648                xQueueGenericCreate
+                0x08003548       0x4e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x08003548                xQueueGenericCreate
  .text.xQueueGenericSend
-                0x08002696      0x188 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x08002696                xQueueGenericSend
+                0x08003596      0x188 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x08003596                xQueueGenericSend
  .text.xQueueReceive
-                0x0800281e      0x15e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                0x0800281e                xQueueReceive
+                0x0800371e      0x15e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0800371e                xQueueReceive
  .text.prvResetNextTaskUnblockTime
-                0x0800297c       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0800387c       0x2c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvInitialiseNewTask
-                0x080029a8       0xf0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x080038a8       0xf0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvInitialiseTaskLists
-                0x08002a98       0x68 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003998       0x68 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvAddNewTaskToReadyList
-                0x08002b00       0xa8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003a00       0xa8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvDeleteTCB
-                0x08002ba8       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003aa8       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvCheckTasksWaitingTermination
-                0x08002be8       0x4c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003ae8       0x4c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvIdleTask
-                0x08002c34       0x28 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003b34       0x28 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.prvAddCurrentTaskToDelayedList
-                0x08002c5c       0x98 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003b5c       0x98 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .text.xTaskCreateStatic
-                0x08002cf4       0x78 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08002cf4                xTaskCreateStatic
+                0x08003bf4       0x78 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003bf4                xTaskCreateStatic
  .text.xTaskCreate
-                0x08002d6c       0x6a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08002d6c                xTaskCreate
- *fill*         0x08002dd6        0x2 
+                0x08003c6c       0x6a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003c6c                xTaskCreate
+ *fill*         0x08003cd6        0x2 
  .text.vTaskStartScheduler
-                0x08002dd8       0x84 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08002dd8                vTaskStartScheduler
+                0x08003cd8       0x84 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003cd8                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x08002e5c       0x10 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08002e5c                vTaskSuspendAll
+                0x08003d5c       0x10 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003d5c                vTaskSuspendAll
  .text.xTaskIncrementTick
-                0x08002e6c      0x118 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08002e6c                xTaskIncrementTick
+                0x08003d6c      0x118 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003d6c                xTaskIncrementTick
  .text.xTaskResumeAll
-                0x08002f84       0xf8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08002f84                xTaskResumeAll
+                0x08003e84       0xf8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003e84                xTaskResumeAll
  .text.vTaskDelay
-                0x0800307c       0x4c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0800307c                vTaskDelay
+                0x08003f7c       0x4c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003f7c                vTaskDelay
  .text.vTaskSwitchContext
-                0x080030c8       0xa4 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x080030c8                vTaskSwitchContext
+                0x08003fc8       0xa4 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08003fc8                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x0800316c       0x30 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0800316c                vTaskPlaceOnEventList
+                0x0800406c       0x30 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0800406c                vTaskPlaceOnEventList
  .text.xTaskRemoveFromEventList
-                0x0800319c       0x8c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x0800319c                xTaskRemoveFromEventList
+                0x0800409c       0x8c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x0800409c                xTaskRemoveFromEventList
  .text.vTaskInternalSetTimeOutState
-                0x08003228       0x18 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08003228                vTaskInternalSetTimeOutState
+                0x08004128       0x18 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08004128                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x08003240       0x84 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x08003240                xTaskCheckForTimeOut
+                0x08004140       0x84 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x08004140                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x080032c4        0xc CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x080032c4                vTaskMissedYield
+                0x080041c4        0xc CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x080041c4                vTaskMissedYield
  .text.xTaskGetSchedulerState
-                0x080032d0       0x20 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x080032d0                xTaskGetSchedulerState
+                0x080041d0       0x20 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x080041d0                xTaskGetSchedulerState
  .text.xTaskPriorityDisinherit
-                0x080032f0       0xb4 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                0x080032f0                xTaskPriorityDisinherit
- .text.__errno  0x080033a4        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
-                0x080033a4                __errno
+                0x080041f0       0xb4 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x080041f0                xTaskPriorityDisinherit
+ .text.abort    0x080042a4       0x10 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
+                0x080042a4                abort
+ .text.__errno  0x080042b4        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
+                0x080042b4                __errno
  .text.__libc_init_array
-                0x080033b0       0x48 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
-                0x080033b0                __libc_init_array
- .text.memset   0x080033f8       0xa4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
-                0x080033f8                memset
+                0x080042c0       0x48 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
+                0x080042c0                __libc_init_array
+ .text.memset   0x08004308       0xa4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
+                0x08004308                memset
  .text.cleanup_glue
-                0x0800349c       0x48 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
-                0x0800349c                cleanup_glue
+                0x080043ac       0x48 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
+                0x080043ac                cleanup_glue
  .text._reclaim_reent
-                0x080034e4       0x90 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
-                0x080034e4                _reclaim_reent
+                0x080043f4       0x90 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
+                0x080043f4                _reclaim_reent
+ .text.raise    0x08004484       0x5c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+                0x08004484                raise
+ .text._kill_r  0x080044e0       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
+                0x080044e0                _kill_r
+ .text._getpid_r
+                0x0800450c        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
+                0x0800450c                _getpid_r
  .text.startup.register_fini
-                0x08003574       0x14 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08003588        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
-                0x08003588                atexit
+                0x08004510       0x14 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08004524        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
+                0x08004524                atexit
  .text.__libc_fini_array
-                0x08003594       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
-                0x08003594                __libc_fini_array
+                0x08004530       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
+                0x08004530                __libc_fini_array
  .text._malloc_trim_r
-                0x080035c0       0xa0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
-                0x080035c0                _malloc_trim_r
- .text._free_r  0x08003660      0x20c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
-                0x08003660                _free_r
+                0x0800455c       0xa0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
+                0x0800455c                _malloc_trim_r
+ .text._free_r  0x080045fc      0x20c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
+                0x080045fc                _free_r
  .text.__retarget_lock_acquire_recursive
-                0x0800386c        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
-                0x0800386c                __retarget_lock_acquire_recursive
+                0x08004808        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+                0x08004808                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08003870        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
-                0x08003870                __retarget_lock_release_recursive
+                0x0800480c        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+                0x0800480c                __retarget_lock_release_recursive
  .text.__malloc_lock
-                0x08003874        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
-                0x08003874                __malloc_lock
+                0x08004810        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
+                0x08004810                __malloc_lock
  .text.__malloc_unlock
-                0x08003880        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
-                0x08003880                __malloc_unlock
- .text._sbrk_r  0x0800388c       0x24 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
-                0x0800388c                _sbrk_r
+                0x0800481c        0xc d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
+                0x0800481c                __malloc_unlock
+ .text._sbrk_r  0x08004828       0x24 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
+                0x08004828                _sbrk_r
  .text.__register_exitproc
-                0x080038b0       0x8c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
-                0x080038b0                __register_exitproc
+                0x0800484c       0x8c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
+                0x0800484c                __register_exitproc
  *(.glue_7)
- .glue_7        0x0800393c        0x0 linker stubs
+ .glue_7        0x080048d8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800393c        0x0 linker stubs
+ .glue_7t       0x080048d8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800393c        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x080048d8        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0800393c        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800393c                _init
- .init          0x08003940        0x8 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x080048d8        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080048d8                _init
+ .init          0x080048dc        0x8 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08003948        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08003948                _fini
- .fini          0x0800394c        0x8 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08003954                . = ALIGN (0x4)
-                0x08003954                _etext = .
+ .fini          0x080048e4        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080048e4                _fini
+ .fini          0x080048e8        0x8 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x080048f0                . = ALIGN (0x4)
+                0x080048f0                _etext = .
 
-.vfp11_veneer   0x08003954        0x0
- .vfp11_veneer  0x08003954        0x0 linker stubs
+.vfp11_veneer   0x080048f0        0x0
+ .vfp11_veneer  0x080048f0        0x0 linker stubs
 
-.v4_bx          0x08003954        0x0
- .v4_bx         0x08003954        0x0 linker stubs
+.v4_bx          0x080048f0        0x0
+ .v4_bx         0x080048f0        0x0 linker stubs
 
-.iplt           0x08003954        0x0
- .iplt          0x08003954        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x080048f0        0x0
+ .iplt          0x080048f0        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08003954       0xa0
-                0x08003954                . = ALIGN (0x4)
+.rodata         0x080048f0       0xa0
+                0x080048f0                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08003954       0x48 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .rodata        0x080048f0       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .rodata        0x08004900       0x38 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
  *(.rodata*)
  .rodata.str1.4
-                0x0800399c       0x12 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- *fill*         0x080039ae        0x2 
+                0x08004938       0x12 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ *fill*         0x0800494a        0x2 
  .rodata.AHBPrescTable
-                0x080039b0       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
-                0x080039b0                AHBPrescTable
+                0x0800494c       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x0800494c                AHBPrescTable
  .rodata.APBPrescTable
-                0x080039c0        0x8 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
-                0x080039c0                APBPrescTable
+                0x0800495c        0x8 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x0800495c                APBPrescTable
  .rodata.aPLLMULFactorTable
-                0x080039c8       0x10 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x080039c8                aPLLMULFactorTable
+                0x08004964       0x10 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08004964                aPLLMULFactorTable
  .rodata.aPredivFactorTable
-                0x080039d8       0x10 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x080039d8                aPredivFactorTable
+                0x08004974       0x10 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08004974                aPredivFactorTable
  .rodata.vTaskStartScheduler.str1.4
-                0x080039e8        0x5 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- *fill*         0x080039ed        0x3 
+                0x08004984        0x5 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ *fill*         0x08004989        0x3 
  .rodata._global_impure_ptr
-                0x080039f0        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
-                0x080039f0                _global_impure_ptr
-                0x080039f4                . = ALIGN (0x4)
+                0x0800498c        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
+                0x0800498c                _global_impure_ptr
+                0x08004990                . = ALIGN (0x4)
 
-.rel.dyn        0x080039f4        0x0
- .rel.iplt      0x080039f4        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-
-.ARM.extab      0x080039f4        0x0
-                0x080039f4                . = ALIGN (0x4)
+.ARM.extab      0x08004990       0x18
+                0x08004990                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080039f4                . = ALIGN (0x4)
+ .ARM.extab     0x08004990       0x18 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+                0x080049a8                . = ALIGN (0x4)
 
-.ARM            0x080039f4        0x0
-                0x080039f4                . = ALIGN (0x4)
-                0x080039f4                __exidx_start = .
+.ARM            0x080049a8       0xd0
+                0x080049a8                . = ALIGN (0x4)
+                0x080049a8                __exidx_start = .
  *(.ARM.exidx*)
-                0x080039f4                __exidx_end = .
-                0x080039f4                . = ALIGN (0x4)
+ .ARM.exidx.text.blink_LED
+                0x08004a60        0x8 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .ARM.exidx.text.circle_blink
+                0x08004a68       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x080049a8       0x80 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+                                 0xd8 (size before relaxing)
+ .ARM.exidx     0x08004a28       0x38 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+                0x08004a78                __exidx_end = .
+                0x08004a78                . = ALIGN (0x4)
 
-.preinit_array  0x080039f4        0x0
-                0x080039f4                . = ALIGN (0x4)
-                0x080039f4                PROVIDE (__preinit_array_start = .)
+.rel.dyn        0x08004a78        0x0
+ .rel.iplt      0x08004a78        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.preinit_array  0x08004a78        0x0
+                0x08004a78                . = ALIGN (0x4)
+                0x08004a78                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080039f4                PROVIDE (__preinit_array_end = .)
-                0x080039f4                . = ALIGN (0x4)
+                0x08004a78                PROVIDE (__preinit_array_end = .)
+                0x08004a78                . = ALIGN (0x4)
 
-.init_array     0x080039f4        0x8
-                0x080039f4                . = ALIGN (0x4)
-                0x080039f4                PROVIDE (__init_array_start = .)
+.init_array     0x08004a78        0x8
+                0x08004a78                . = ALIGN (0x4)
+                0x08004a78                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x080039f4        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+                0x08004a78        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x080039f8        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080039fc                PROVIDE (__init_array_end = .)
-                0x080039fc                . = ALIGN (0x4)
+ .init_array    0x08004a7c        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08004a80                PROVIDE (__init_array_end = .)
+                0x08004a80                . = ALIGN (0x4)
 
-.fini_array     0x080039fc        0x4
-                0x080039fc                . = ALIGN (0x4)
-                0x080039fc                PROVIDE (__fini_array_start = .)
+.fini_array     0x08004a80        0x4
+                0x08004a80                . = ALIGN (0x4)
+                0x08004a80                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080039fc        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08003a00                PROVIDE (__fini_array_end = .)
-                0x08003a00                . = ALIGN (0x4)
-                0x08003a00                _sidata = LOADADDR (.data)
+ .fini_array    0x08004a80        0x4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08004a84                PROVIDE (__fini_array_end = .)
+                0x08004a84                . = ALIGN (0x4)
+                0x08004a84                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x854 load address 0x08003a00
+.data           0x20000000      0x854 load address 0x08004a84
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2240,12 +2344,12 @@ LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e
  *(.RamFunc*)
                 0x20000854                . = ALIGN (0x4)
                 0x20000854                _edata = .
-                0x08004254                _siccmram = LOADADDR (.ccmram)
+                0x080052d8                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x20000854        0x0 load address 0x08004254
+.igot.plt       0x20000854        0x0 load address 0x080052d8
  .igot.plt      0x20000854        0x0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08004254
+.ccmram         0x10000000        0x0 load address 0x080052d8
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -2381,282 +2485,339 @@ LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e
  .ARM.attributes
                 0x0000001e       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .ARM.attributes
-                0x00000052       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+                0x00000052       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
  .ARM.attributes
-                0x00000086       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                0x00000086       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
  .ARM.attributes
-                0x000000ba       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x000000ba       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x000000ee       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+                0x000000ee       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
  .ARM.attributes
-                0x00000122       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x00000122       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
  .ARM.attributes
-                0x00000156       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+                0x00000156       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
  .ARM.attributes
-                0x0000018a       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x0000018a       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
-                0x000001be       0x21 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+                0x000001be       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
-                0x000001df       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x000001f2       0x34 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
  .ARM.attributes
-                0x00000213       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x00000226       0x21 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
  .ARM.attributes
-                0x00000247       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x00000247       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .ARM.attributes
-                0x0000027b       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x0000027b       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
  .ARM.attributes
-                0x000002af       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+                0x000002af       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
  .ARM.attributes
-                0x000002e3       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x000002e3       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
  .ARM.attributes
-                0x00000317       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x00000317       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x0000034b       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x0000034b       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
  .ARM.attributes
-                0x0000037f       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+                0x0000037f       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x000003b3       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                0x000003b3       0x34 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
  .ARM.attributes
-                0x000003e7       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                0x000003e7       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
  .ARM.attributes
-                0x0000041b       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                0x0000041b       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
  .ARM.attributes
-                0x0000044f       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                0x0000044f       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
  .ARM.attributes
-                0x00000483       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                0x00000483       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
  .ARM.attributes
-                0x000004b7       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
+                0x000004b7       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .ARM.attributes
-                0x000004eb       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
+                0x000004eb       0x34 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .ARM.attributes
-                0x0000051f       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
+                0x0000051f       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
  .ARM.attributes
-                0x00000553       0x1c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memcpy.o)
+                0x00000553       0x1e d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(libunwind.o)
  .ARM.attributes
-                0x0000056f       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
+                0x00000571       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
  .ARM.attributes
-                0x000005a3       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
+                0x000005a5       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
  .ARM.attributes
-                0x000005d7       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+                0x000005d9       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000060b       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
+                0x0000060d       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000063f       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
+                0x00000641       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x00000673       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
+                0x00000675       0x1c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000006a7       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+                0x00000691       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x000006db       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mallocr.o)
+                0x000006c5       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000070f       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
+                0x000006f9       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000743       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
+                0x0000072d       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
  .ARM.attributes
-                0x00000777       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
+                0x00000761       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x000007ab       0x1e d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000795       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000007c9       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000007fd       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000831       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000865       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000899       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000008cd       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000901       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000935       0x1e d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(HelloWorld.elf elf32-littlearm)
 LOAD linker stubs
 LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
 LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x1be7b
- .debug_info    0x00000000      0xb19 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
- .debug_info    0x00000b19     0x1f9a CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00002ab3      0xb4e CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_info    0x00003601      0xb13 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_info    0x00004114      0x6fb CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_info    0x0000480f      0x174 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00004983      0x426 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_info    0x00004da9       0x22 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_info    0x00004dcb      0x87b CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_info    0x00005646      0xff4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_info    0x0000663a      0x6c0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_info    0x00006cfa     0x161c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_info    0x00008316      0x795 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_info    0x00008aab     0x3e8c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_info    0x0000c937     0x1b86 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_info    0x0000e4bd     0x4f2c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_info    0x000133e9     0x2a90 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_info    0x00015e79      0x2da CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_info    0x00016153      0x587 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_info    0x000166da      0x471 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_info    0x00016b4b     0x2221 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_info    0x00018d6c     0x310f CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.debug_info     0x00000000    0x1ea18
+ .debug_info    0x00000000     0x24af CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_info    0x000024af      0xb19 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .debug_info    0x00002fc8     0x1ed9 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00004ea1      0xb4e CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_info    0x000059ef      0xb13 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_info    0x00006502      0x6fb CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_info    0x00006bfd      0x7af CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x000073ac      0x174 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x00007520      0x426 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_info    0x00007946       0x22 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_info    0x00007968      0x87b CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_info    0x000081e3      0xff4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_info    0x000091d7      0x6c0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_info    0x00009897     0x161c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_info    0x0000aeb3      0x795 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_info    0x0000b648     0x3e8c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_info    0x0000f4d4     0x1b86 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_info    0x0001105a     0x4f2c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_info    0x00015f86     0x2a90 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_info    0x00018a16      0x2da CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_info    0x00018cf0      0x587 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_info    0x00019277      0x471 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_info    0x000196e8     0x2221 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_info    0x0001b909     0x310f CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
-.debug_abbrev   0x00000000     0x318b
- .debug_abbrev  0x00000000      0x1cd CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
- .debug_abbrev  0x000001cd      0x387 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000554      0x18f CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_abbrev  0x000006e3      0x1ec CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_abbrev  0x000008cf      0x179 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_abbrev  0x00000a48       0xe7 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00000b2f      0x119 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_abbrev  0x00000c48       0x12 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_abbrev  0x00000c5a      0x207 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_abbrev  0x00000e61      0x36a CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_abbrev  0x000011cb      0x1e6 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_abbrev  0x000013b1      0x2e6 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_abbrev  0x00001697      0x275 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x0000190c      0x22b CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_abbrev  0x00001b37      0x241 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00001d78      0x2cc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_abbrev  0x00002044      0x411 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_abbrev  0x00002455      0x106 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_abbrev  0x0000255b      0x26b CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_abbrev  0x000027c6      0x238 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_abbrev  0x000029fe      0x38c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_abbrev  0x00002d8a      0x401 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.debug_abbrev   0x00000000     0x382d
+ .debug_abbrev  0x00000000      0x4db CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_abbrev  0x000004db      0x1cd CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .debug_abbrev  0x000006a8      0x3ab CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000a53      0x18f CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_abbrev  0x00000be2      0x1ec CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_abbrev  0x00000dce      0x179 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_abbrev  0x00000f47      0x1a3 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x000010ea       0xe7 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x000011d1      0x119 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_abbrev  0x000012ea       0x12 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_abbrev  0x000012fc      0x207 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_abbrev  0x00001503      0x36a CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000186d      0x1e6 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001a53      0x2e6 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001d39      0x275 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00001fae      0x22b CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_abbrev  0x000021d9      0x241 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000241a      0x2cc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_abbrev  0x000026e6      0x411 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_abbrev  0x00002af7      0x106 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_abbrev  0x00002bfd      0x26b CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_abbrev  0x00002e68      0x238 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_abbrev  0x000030a0      0x38c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_abbrev  0x0000342c      0x401 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
-.debug_aranges  0x00000000     0x1158
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
- .debug_aranges
-                0x00000020       0x60 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_aranges
-                0x00000080       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_aranges
-                0x000000b0       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_aranges
-                0x000000e0       0x50 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_aranges
-                0x00000130       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_aranges
-                0x00000150       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_aranges
-                0x00000178       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_aranges
-                0x000001a0       0xe0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_aranges
-                0x00000280       0xa8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_aranges
-                0x00000328       0x58 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_aranges
-                0x00000380       0x88 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_aranges
-                0x00000408       0x38 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_aranges
-                0x00000440      0x3e0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_aranges
-                0x00000820      0x178 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_aranges
-                0x00000998      0x228 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_aranges
-                0x00000bc0      0x1d8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_aranges
-                0x00000d98       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_aranges
-                0x00000dd8       0x80 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_aranges
-                0x00000e58       0x50 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_aranges
-                0x00000ea8      0x108 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_aranges
-                0x00000fb0      0x1a8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.debug_loc      0x00000000    0x13b1c
+ .debug_loc     0x00000000       0xb7 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_loc     0x000000b7      0x21b CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x000002d2       0x84 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_loc     0x00000356       0x89 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_loc     0x000003df      0x3c5 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_loc     0x000007a4       0x64 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_loc     0x00000808      0x123 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_loc     0x0000092b      0x141 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_loc     0x00000a6c      0x744 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_loc     0x000011b0      0x3b3 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_loc     0x00001563      0xe00 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_loc     0x00002363      0xa80 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_loc     0x00002de3     0x55d2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_loc     0x000083b5     0x2098 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_loc     0x0000a44d     0x4b36 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_loc     0x0000ef83     0x12e6 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_loc     0x00010269       0xad CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_loc     0x00010316      0x124 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_loc     0x0001043a      0x331 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_loc     0x0001076b     0x15fd CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_loc     0x00011d68     0x1db4 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
-.debug_ranges   0x00000000     0x1280
- .debug_ranges  0x00000000       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
- .debug_ranges  0x00000010       0x80 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000090       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_ranges  0x000000b0       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_ranges  0x000000d0       0x40 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_ranges  0x00000110       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_ranges  0x00000120       0x18 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_ranges  0x00000138       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_ranges  0x00000158       0xd0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_ranges  0x00000228       0xf8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_ranges  0x00000320       0x48 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_ranges  0x00000368       0x98 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_ranges  0x00000400       0x28 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_ranges  0x00000428      0x3d0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_ranges  0x000007f8      0x168 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_ranges  0x00000960      0x230 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_ranges  0x00000b90      0x1c8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_ranges  0x00000d58       0x30 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_ranges  0x00000d88       0x88 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_ranges  0x00000e10       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_ranges  0x00000e50      0x1c8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_ranges  0x00001018      0x268 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.debug_aranges  0x00000000     0x1228
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_aranges
+                0x00000028       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .debug_aranges
+                0x00000048       0x60 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_aranges
+                0x000000a8       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_aranges
+                0x000000d8       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_aranges
+                0x00000108       0x50 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_aranges
+                0x00000158       0xa8 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_aranges
+                0x00000200       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_aranges
+                0x00000220       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_aranges
+                0x00000248       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_aranges
+                0x00000270       0xe0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_aranges
+                0x00000350       0xa8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_aranges
+                0x000003f8       0x58 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_aranges
+                0x00000450       0x88 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_aranges
+                0x000004d8       0x38 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_aranges
+                0x00000510      0x3e0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_aranges
+                0x000008f0      0x178 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_aranges
+                0x00000a68      0x228 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_aranges
+                0x00000c90      0x1d8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_aranges
+                0x00000e68       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_aranges
+                0x00000ea8       0x80 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_aranges
+                0x00000f28       0x50 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_aranges
+                0x00000f78      0x108 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_aranges
+                0x00001080      0x1a8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
-.debug_line     0x00000000    0x16999
- .debug_line    0x00000000      0x23a CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
- .debug_line    0x0000023a      0x7ad CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000009e7      0x2a9 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_line    0x00000c90      0x2a3 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_line    0x00000f33      0x29e CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_line    0x000011d1      0x19c CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000136d      0x25c CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_line    0x000015c9       0x9e CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_line    0x00001667      0x552 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_line    0x00001bb9      0x777 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_line    0x00002330      0x687 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_line    0x000029b7     0x11ed CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_line    0x00003ba4      0xb32 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_line    0x000046d6     0x51d1 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_line    0x000098a7     0x1daf CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_line    0x0000b656     0x509d CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_line    0x000106f3     0x1234 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_line    0x00011927      0x37a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x00011ca1      0x72b CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_line    0x000123cc      0x661 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_line    0x00012a2d     0x1bcc CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x000145f9     0x23a0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.debug_ranges   0x00000000     0x1330
+ .debug_ranges  0x00000000       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_ranges  0x00000030       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .debug_ranges  0x00000040       0x68 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x000000a8       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_ranges  0x000000c8       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_ranges  0x000000e8       0x40 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_ranges  0x00000128       0x98 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_ranges  0x000001c0       0x10 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_ranges  0x000001d0       0x18 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_ranges  0x000001e8       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_ranges  0x00000208       0xd0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_ranges  0x000002d8       0xf8 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_ranges  0x000003d0       0x48 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_ranges  0x00000418       0x98 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_ranges  0x000004b0       0x28 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x000004d8      0x3d0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_ranges  0x000008a8      0x168 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_ranges  0x00000a10      0x230 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_ranges  0x00000c40      0x1c8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_ranges  0x00000e08       0x30 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_ranges  0x00000e38       0x88 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_ranges  0x00000ec0       0x40 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_ranges  0x00000f00      0x1c8 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_ranges  0x000010c8      0x268 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
-.debug_str      0x00000000     0x625a
- .debug_str     0x00000000      0x67a CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+.debug_line     0x00000000    0x17322
+ .debug_line    0x00000000      0x5df CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_line    0x000005df      0x23a CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .debug_line    0x00000819      0x77b CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000f94      0x2a9 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_line    0x0000123d      0x2a3 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_line    0x000014e0      0x29e CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_line    0x0000177e      0x3dc CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00001b5a      0x19c CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00001cf6      0x25c CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_line    0x00001f52       0x9e CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_line    0x00001ff0      0x552 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_line    0x00002542      0x777 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_line    0x00002cb9      0x687 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_line    0x00003340     0x11ed CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_line    0x0000452d      0xb32 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000505f     0x51d1 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_line    0x0000a230     0x1daf CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_line    0x0000bfdf     0x509d CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_line    0x0001107c     0x1234 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_line    0x000122b0      0x37a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x0001262a      0x72b CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x00012d55      0x661 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_line    0x000133b6     0x1bcc CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x00014f82     0x23a0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+
+.debug_str      0x00000000     0x6e84
+ .debug_str     0x00000000      0xf38 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+                               0x1212 (size before relaxing)
+ .debug_str     0x00000f38      0x236 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
                                 0x708 (size before relaxing)
- .debug_str     0x0000067a      0xd8f CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
-                               0x1490 (size before relaxing)
- .debug_str     0x00001409      0x4c3 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_str     0x0000116e      0xd04 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+                               0x145d (size before relaxing)
+ .debug_str     0x00001e72      0x4c3 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
                                 0xb53 (size before relaxing)
- .debug_str     0x000018cc      0x127 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_str     0x00002335      0x127 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
                                 0xce3 (size before relaxing)
- .debug_str     0x000019f3       0xc2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_str     0x0000245c       0xc2 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
                                 0x76c (size before relaxing)
- .debug_str     0x00001ab5       0x93 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x0000251e      0x1f3 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+                                0x42c (size before relaxing)
+ .debug_str     0x00002711       0x8b CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
                                 0x258 (size before relaxing)
- .debug_str     0x00001b48       0xff CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_str     0x0000279c       0xff CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
                                 0x30d (size before relaxing)
- .debug_str     0x00001c47       0x4c CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_str     0x0000289b       0x4c CMakeFiles/HelloWorld.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
                                  0x77 (size before relaxing)
- .debug_str     0x00001c93      0x2e7 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_str     0x000028e7      0x2e2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
                                 0x9e3 (size before relaxing)
- .debug_str     0x00001f7a      0x469 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_str     0x00002bc9      0x45f CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
                                 0xb9d (size before relaxing)
- .debug_str     0x000023e3      0x120 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_str     0x00003028      0x120 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
                                 0x468 (size before relaxing)
- .debug_str     0x00002503      0x1d5 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_str     0x00003148      0x1ca CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
                                 0x6b5 (size before relaxing)
- .debug_str     0x000026d8       0xd4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_str     0x00003312       0xd4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
                                 0x571 (size before relaxing)
- .debug_str     0x000027ac      0xf27 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_str     0x000033e6      0xf27 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
                                0x16fe (size before relaxing)
- .debug_str     0x000036d3      0x608 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_str     0x0000430d      0x608 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
                                 0xf39 (size before relaxing)
- .debug_str     0x00003cdb      0x7b4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_str     0x00004915      0x7b4 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
                                 0xf10 (size before relaxing)
- .debug_str     0x0000448f      0xb4e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_str     0x000050c9      0xb4e CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
                                0x13fc (size before relaxing)
- .debug_str     0x00004fdd      0x14f CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_str     0x00005c17      0x14f CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
                                 0x335 (size before relaxing)
- .debug_str     0x0000512c      0x243 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_str     0x00005d66      0x243 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
                                 0x4b1 (size before relaxing)
- .debug_str     0x0000536f      0x1fe CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_str     0x00005fa9      0x1f7 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
                                 0x41e (size before relaxing)
- .debug_str     0x0000556d      0x54c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_str     0x000061a0      0x543 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
                                 0xb07 (size before relaxing)
- .debug_str     0x00005ab9      0x7a1 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_str     0x000066e3      0x7a1 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
                                0x1410 (size before relaxing)
 
 .comment        0x00000000       0x49
- .comment       0x00000000       0x49 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .comment       0x00000000       0x49 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
                                  0x4a (size before relaxing)
+ .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
@@ -2674,59 +2835,45 @@ LOAD d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .comment       0x00000049       0x4a CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
-.debug_frame    0x00000000     0x3240
- .debug_frame   0x00000000       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
- .debug_frame   0x00000020      0x108 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x00000128       0x64 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_frame   0x0000018c       0x50 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_frame   0x000001dc       0x88 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_frame   0x00000264       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x0000028c       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_frame   0x000002bc      0x1cc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_frame   0x00000488      0x148 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_frame   0x000005d0       0xd0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_frame   0x000006a0      0x16c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_frame   0x0000080c       0x7c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_frame   0x00000888      0xb50 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_frame   0x000013d8      0x444 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_frame   0x0000181c      0x600 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_frame   0x00001e1c      0x58c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_frame   0x000023a8       0x70 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_frame   0x00002418      0x110 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_frame   0x00002528       0xb0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_frame   0x000025d8      0x360 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_frame   0x00002938      0x558 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_frame   0x00002e90       0x20 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
- .debug_frame   0x00002eb0       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
- .debug_frame   0x00002edc       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
- .debug_frame   0x00002f08       0x64 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
- .debug_frame   0x00002f6c       0x68 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00002fd4       0x20 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
- .debug_frame   0x00002ff4       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
- .debug_frame   0x00003028       0x8c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
- .debug_frame   0x000030b4       0xb0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
- .debug_frame   0x00003164       0x4c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mallocr.o)
- .debug_frame   0x000031b0       0x30 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
- .debug_frame   0x000031e0       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
- .debug_frame   0x0000320c       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)
-
-.debug_loc      0x00000000    0x136f3
- .debug_loc     0x00000000      0x26e CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
- .debug_loc     0x0000026e       0x84 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_loc     0x000002f2       0x89 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_loc     0x0000037b       0x64 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
- .debug_loc     0x000003df      0x123 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_loc     0x00000502      0x141 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_loc     0x00000643      0x744 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_loc     0x00000d87      0x3b3 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_loc     0x0000113a      0xe00 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_loc     0x00001f3a      0xa80 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_loc     0x000029ba     0x55d2 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_loc     0x00007f8c     0x2098 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_loc     0x0000a024     0x4b36 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_loc     0x0000eb5a     0x12e6 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_loc     0x0000fe40       0xad CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_loc     0x0000feed      0x124 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_loc     0x00010011      0x331 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_loc     0x00010342     0x15fd CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_loc     0x0001193f     0x1db4 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.debug_frame    0x00000000     0x3960
+ .debug_frame   0x00000000       0x48 CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj
+ .debug_frame   0x00000048       0x20 CMakeFiles/HelloWorld.elf.dir/Core/Src/freertos.c.obj
+ .debug_frame   0x00000068      0x100 CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x00000168       0x64 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_frame   0x000001cc       0x50 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_frame   0x0000021c       0x88 CMakeFiles/HelloWorld.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_frame   0x000002a4      0x190 CMakeFiles/HelloWorld.elf.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00000434       0x28 CMakeFiles/HelloWorld.elf.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x0000045c       0x30 CMakeFiles/HelloWorld.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_frame   0x0000048c      0x1cc CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_frame   0x00000658      0x148 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_frame   0x000007a0       0xd0 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_frame   0x00000870      0x16c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_frame   0x000009dc       0x7c CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00000a58      0xb50 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_frame   0x000015a8      0x444 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_frame   0x000019ec      0x600 CMakeFiles/HelloWorld.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_frame   0x00001fec      0x58c CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_frame   0x00002578       0x70 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_frame   0x000025e8      0x110 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_frame   0x000026f8       0xb0 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_frame   0x000027a8      0x360 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_frame   0x00002b08      0x558 CMakeFiles/HelloWorld.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_frame   0x00003060      0x2d4 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00003334      0x104 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(pr-support.o)
+ .debug_frame   0x00003438       0x28 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-abort.o)
+ .debug_frame   0x00003460       0x20 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-errno.o)
+ .debug_frame   0x00003480       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-init.o)
+ .debug_frame   0x000034ac       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-memset.o)
+ .debug_frame   0x000034d8       0x64 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-reent.o)
+ .debug_frame   0x0000353c      0x114 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signal.o)
+ .debug_frame   0x00003650       0x3c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-signalr.o)
+ .debug_frame   0x0000368c       0x68 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000036f4       0x20 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00003714       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-fini.o)
+ .debug_frame   0x00003748       0x8c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-freer.o)
+ .debug_frame   0x000037d4       0xb0 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-lock.o)
+ .debug_frame   0x00003884       0x4c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mallocr.o)
+ .debug_frame   0x000038d0       0x30 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-mlock.o)
+ .debug_frame   0x00003900       0x2c d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000392c       0x34 d:/programs/gnu_arm_toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg.a(lib_a-__atexit.o)

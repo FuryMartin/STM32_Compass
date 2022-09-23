@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "cpp_main.h"
+#include "cpp_main.h"
 #include "stdbool.h"
 #include "stdio.h"
 /* USER CODE END Includes */
@@ -310,33 +310,7 @@ void StartDefaultTask(void const * argument)
 {
     /* USER CODE BEGIN 5 */
     /* Infinite loop */
-    uint16_t LEDs[8] = {GPIO_PIN_8,GPIO_PIN_9,GPIO_PIN_10,GPIO_PIN_11,GPIO_PIN_12,GPIO_PIN_13,GPIO_PIN_14,GPIO_PIN_15};
-    int length = 8;
-    int status = 0;
-    int current_led = 0;
-    for(;;)
-    {
-        int dat;
-        xQueueReceive(msgQ, &dat, 1);
-        if (dat == 1) {
-            status = !status;
-        }
-        //blink_LED(current_led, LEDs);
-        HAL_GPIO_TogglePin(GPIOE, LEDs[current_led]);
-        osDelay(300);
-        HAL_GPIO_TogglePin(GPIOE, LEDs[current_led]);
-
-        if(status == 1)
-        {
-            current_led++;
-            current_led %= length;
-        }else if(status == 0) {
-            current_led--;
-            if (current_led == -1)
-                current_led = length - 1;
-        }
-    }
-
+    circle_blink();
     /* USER CODE END 5 */
 }
 
