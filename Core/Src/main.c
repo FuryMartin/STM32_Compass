@@ -43,7 +43,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart1;
-
 osThreadId defaultTaskHandle;
 /* USER CODE BEGIN PV */
 
@@ -56,7 +55,7 @@ static void MX_USART1_UART_Init(void);
 void StartDefaultTask(void const * argument);
 
 /* USER CODE BEGIN PFP */
-void StartTask2(void const * argument);
+void key_press_monitor(void const * argument);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -125,9 +124,11 @@ int main(void)
     defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
     /* USER CODE BEGIN RTOS_THREADS */
-    osThreadDef(task2, StartTask2, osPriorityNormal, 0, 128);
-    defaultTaskHandle = osThreadCreate(osThread(task2), NULL);
+    osThreadDef(key_press, key_press_monitor, osPriorityNormal, 0, 128);
+    osThreadId key_press = osThreadCreate(osThread(key_press), NULL);
 
+    osThreadDef(SerialPrintTask, SerialPrint, osPriorityNormal,0,128);
+    osThreadId serialHandle = osThreadCreate(osThread(SerialPrintTask), NULL);
     /* add threads, ... */
     /* USER CODE END RTOS_THREADS */
 
@@ -261,7 +262,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void StartTask2(void const * argument)
+void key_press_monitor(void const * argument)
 {
     int in1_0 = 0, in1_1 = 0;
     const int refDebounce = 10;

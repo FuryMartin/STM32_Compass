@@ -11,6 +11,7 @@ extern "C"
 #endif
 void circle_blink();
 void blink_LED(int led, uint16_t *LEDs);
+void SerialPrint(void);
 #ifdef __cplusplus
 }
 #endif

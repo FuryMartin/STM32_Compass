@@ -18,8 +18,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28031c42-e971-4cdd-9fc2-9871dc74e453" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/cpp_main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/cpp_main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/cpp_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/cpp_main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HelloWorld.elf.dir/Core/Src/cpp_main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HelloWorld.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HelloWorld.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,7 @@
     "cidr.known.project.marker": "true",
     "last_opened_file_path": "D:/Code/STM32/HelloWorld",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "serialmonitor.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "structure.view.defaults.are.configured": "true"
   }
 }]]></component>
@@ -68,12 +79,12 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD HelloWorld">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="HelloWorld.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HelloWorld" TARGET_NAME="HelloWorld.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HelloWorld" RUN_TARGET_NAME="HelloWorld.elf">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HelloWorld" TARGET_NAME="HelloWorld.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HelloWorld" RUN_TARGET_NAME="HelloWorld.elf">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,7 +108,8 @@
       <workItem from="1663860676419" duration="2996000" />
       <workItem from="1663864265420" duration="419000" />
       <workItem from="1663864707063" duration="224000" />
-      <workItem from="1663864954227" duration="12087000" />
+      <workItem from="1663864954227" duration="12518000" />
+      <workItem from="1663913710187" duration="2041000" />
     </task>
     <servers />
   </component>
@@ -120,17 +132,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>316</line>
+          <line>317</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>302</line>
+          <line>303</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
-          <line>324</line>
+          <line>325</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
