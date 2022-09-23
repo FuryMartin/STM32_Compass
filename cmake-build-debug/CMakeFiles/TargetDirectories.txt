@@ -1,0 +1,3 @@
+D:/Code/STM32/HelloWorld/cmake-build-debug/CMakeFiles/HelloWorld.elf.dir
+D:/Code/STM32/HelloWorld/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/STM32/HelloWorld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
