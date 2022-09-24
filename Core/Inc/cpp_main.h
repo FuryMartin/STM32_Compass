@@ -12,6 +12,8 @@ extern "C"
 void circle_blink();
 void blink_LED(int led, uint16_t *LEDs);
 void SerialPrint(void);
+void StartCompassTask(void);
+void calibration(void);
 #ifdef __cplusplus
 }
 #endif

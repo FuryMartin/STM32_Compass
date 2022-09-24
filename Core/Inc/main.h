@@ -43,6 +43,7 @@ extern "C" {
 /* USER CODE BEGIN EC */
 extern UART_HandleTypeDef huart1;
 extern QueueHandle_t msgQ;
+extern I2C_HandleTypeDef hi2c1;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
